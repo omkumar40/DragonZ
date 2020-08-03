@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31CDB0), color-stop(#2C8EC4), to(#3551A4));
+  background-image: linear-gradient(to right, #31CDB0, #2C8EC4, #3551A4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 999;
+}
+
+.navbar img {
+  position: relative;
+  left: 1%;
+}
+
+.navbar nav {
+  position: relative;
+  left: 70%;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar nav ul li {
+  padding-right: 20px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.filler {
+  padding-top: 5%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container div {
+  margin: 0% 2%;
+  text-align: center;
+}
+
+.container div .image-class {
+  width: 300px;
+  border: 0px;
+  border-radius: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.container div .image-class:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+#about {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 3%;
+}
+
+#contact {
+  margin-left: 3%;
+}
+
+.footer {
+  text-align: center;
+  margin-left: 90px;
+}
+/*# sourceMappingURL=main.css.map */
